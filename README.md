@@ -13,7 +13,7 @@ This analysis cuts through chess folklore with statistical evidence. We examine:
 - **Opening theory vs reality**: Identifying which openings overperform their reputation and which are statistical traps
 - **Playstyle fingerprints**: Detecting aggressive vs defensive tendencies through game length, opening choice, and draw frequency
 
-The goal isn't just to describe patterns—it's to extract actionable intelligence for players looking to optimize their repertoire and understand the strategic landscape of modern chess.
+The goal isn't just to describe patterns. it's to extract actionable intelligence for players looking to optimize their repertoire and understand the strategic landscape of modern chess.
 
 ## Features
 

@@ -24,22 +24,19 @@ The goal isn't just to describe patterns. it's to extract actionable intelligenc
   - Statistical significance testing
   
 - **Game Length Analysis**: Correlation between game duration and outcomes
-  - Move count distribution by result (win/loss/draw)
-  - Short game outcome patterns
-  - Long game characteristics and draw probability
-  - Decisive vs non-decisive game length thresholds
+  - Move count distribution by result
+  - Short vs long game patterns
+  - Draw probability modeling
   
 - **Opening Strategy Analysis**: Performance metrics for different chess openings
-  - Win rate by opening for White and Black
-  - Opening popularity and effectiveness correlation
-  - Risk assessment for aggressive vs defensive openings
-  - Opening recommendation by player style
+  - Win rate by opening
+  - Opening popularity vs effectiveness
+  - Top performing openings
   
 - **Player Behavior Profiling**: Pattern recognition in player strategies
-  - Aggressive vs defensive play style identification
-  - Game length correlation with player behavior
-  - Draw tendency analysis by player type
-  - Strategic pattern clustering
+  - Play style identification (aggressive vs defensive)
+  - Opening preferences by player type
+  - Draw tendency patterns
 
 ## Table of Contents
 

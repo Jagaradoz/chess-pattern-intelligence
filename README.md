@@ -13,7 +13,7 @@ This analysis cuts through chess folklore with statistical evidence. We examine:
 - **Opening theory vs reality**: Identifying which openings overperform their reputation and which are statistical traps
 - **Playstyle fingerprints**: Detecting aggressive vs defensive tendencies through game length, opening choice, and draw frequency
 
-The goal isn't just to describe patterns. it's to extract actionable intelligence for players looking to optimize their repertoire and understand the strategic landscape of modern chess.
+The goal isn't just to describe patterns; it's to extract actionable intelligence for players looking to optimize their repertoire and understand the strategic landscape of modern chess.
 
 ## Features
 
@@ -33,10 +33,6 @@ The goal isn't just to describe patterns. it's to extract actionable intelligenc
   - Opening popularity vs effectiveness
   - Top performing openings
   
-- **Player Behavior Profiling**: Pattern recognition in player strategies
-  - Play style identification (aggressive vs defensive)
-  - Opening preferences by player type
-  - Draw tendency patterns
 
 ## Table of Contents
 
@@ -62,6 +58,7 @@ The goal isn't just to describe patterns. it's to extract actionable intelligenc
 | `Seaborn`    | Statistical data visualization   |
 | `Jupyter`    | Interactive notebook environment |
 | `SciPy`      | Statistical testing              |
+| `Scikit-learn`| Machine learning models         |
 
 ## Project Structure
 ```text
@@ -71,12 +68,10 @@ chess-pattern-intelligence/
 │   ├── 01_color_advantage_analysis/            # White vs Black win rate visualizations
 │   ├── 02_game_length_analysis/                # Game duration and outcome charts
 │   ├── 03_opening_effectiveness/               # Opening strategy performance
-│   └── 04_player_behavior_patterns/            # Player style and behavior insights
 ├── notebooks/                                  # Jupyter notebooks for analysis
 │   ├── 01_color_advantage_analysis.ipynb
 │   ├── 02_game_length_analysis.ipynb
 │   ├── 03_opening_effectiveness.ipynb
-│   └── 04_player_behavior_patterns.ipynb
 └── README.md
 ```
 
@@ -106,7 +101,7 @@ This comprehensive dataset enables deep analysis of strategic patterns, opening 
 
 1. Clone the repository:
 ```bash
-   git clone https://github.com/yourusername/chess-pattern-intelligence.git
+   git clone https://github.com/<your-username>/chess-pattern-intelligence.git
    cd chess-pattern-intelligence
 ```
 2. Create and activate a virtual environment:
